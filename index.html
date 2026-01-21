@@ -28,22 +28,59 @@
 
     <main class="container mx-auto">
 
-        <div class="flex flex-col-reverse md:flex-row justify-between p-5 gap-5 mt-15 md:mt-20">
-            <div>
+        <!-- hero section -->
+
+        <nav class="flex flex-col-reverse md:flex-row justify-between p-5 gap-5 mt-15 md:mt-20">
+            <div class="space-y-4">
                 <h1 class="font-bold text-5xl lg:text-7xl text-[#575757]"><span
                         class=" bg-gradient-to-r from-[#FBA24F] to-[#FF1E1E] text-transparent bg-clip-text">Skip</span>
                     The Diet, <br> Just Eat Healthy <br> With Food Network</h1>
+
+                <p class="md:w-2/3">Imagine you don't need a diet because we provide healthy and delicious food for you!
+                </p>
+
+
+
+                <button
+                    class="bg-gradient-to-r from-[#FBA24F] to-[#FF1E1E] rounded-full py-3 px-5 text-[#FFFFFF] font-semibold">Order
+                    Food</button>
+
             </div>
             <div class="relative">
 
                 <!-- background image -->
-                <img class="md:w-[400px]" src="./images/shapes/Group 8450.png" alt="Shape">
+                <img class="md:w-[400px] w-full" src="./images/shapes/Group 8450.png" alt="Shape">
 
                 <!-- forward image  -->
                 <img class="absolute -top-[10px] w-[80%]" src="./images/male/hero-image.png" alt="Man">
             </div>
 
-        </div>
+        </nav>
+
+        <!-- about me section -->
+
+        <section class="bg-[url('./images/shapes/about_banner.png')] mt-20 p-10">
+            <div class="flex flex-col md:flex-row justify-center items-center gap-10">
+
+                <div class="flex-1">
+                    <img class="w-[300px] mx-auto" src="./images/female/Person Image.png" alt="">
+                </div>
+                <div class="flex-1 text-justify space-y-4">
+                    <h1 class="text-3xl md:text-4xl text-[#707070] font-bold">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a
+                        pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi,
+                        risus in suscipit non. Non commodo volutpat, pharetra, vel.</p>
+
+
+                    <button
+                        class="bg-gradient-to-r from-[#FBA24F] to-[#FF1E1E] rounded-full py-3 px-5 text-[#FFFFFF] font-semibold">Contact
+                        me</button>
+
+                </div>
+
+            </div>
+        </section>
+
 
     </main>
 
