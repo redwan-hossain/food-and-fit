@@ -13,10 +13,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
+    <!-- monoton font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+
     <style>
         .montserratFont {
             font-family: "Montserrat", sans-serif;
             font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .monotonFont {
+            font-family: "Monoton", sans-serif;
             font-weight: 400;
             font-style: normal;
         }
@@ -42,7 +53,7 @@
 
 
                 <button
-                    class="bg-gradient-to-r from-[#FBA24F] to-[#FF1E1E] rounded-full py-3 px-5 text-[#FFFFFF] font-semibold">Order
+                    class="bg-gradient-to-r from-[#FBA24F] to-[#FF1E1E] rounded-full py-3 px-5 text-[#FFFFFF] font-semibold cursor-pointer">Order
                     Food</button>
 
             </div>
@@ -73,7 +84,7 @@
 
 
                     <button
-                        class="bg-gradient-to-r from-[#FBA24F] to-[#FF1E1E] rounded-full py-3 px-5 text-[#FFFFFF] font-semibold">Contact
+                        class="bg-gradient-to-r from-[#FBA24F] to-[#FF1E1E] rounded-full py-3 px-5 text-[#FFFFFF] font-semibold cursor-pointer">Contact
                         me</button>
 
                 </div>
@@ -81,6 +92,38 @@
             </div>
         </section>
 
+
+        <!-- recipes section -->
+
+        <section class="py-10 px-3 bg-[#E5E5E5]">
+
+            <div class="text-center space-y-4">
+                <h1 class="text-4xl md:text-5xl uppercase monotonFont">My recipes</h1>
+                <p class="md:w-[706px] mx-auto">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 mt-10 gap-10 px-10">
+
+                <div class="single-card bg-[#FFFFFF] p-5 rounded-md space-y-3 pb-8">
+                    <img src="./images/food/Project Cover.jpg" alt="">
+
+                    <h1 class="mt-6 font-bold text-2xl">Recipe Title</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+                <div class="single-card bg-[#FFFFFF] p-5 rounded-md space-y-3 pb-8">
+                    <img src="./images/food/Project Cover.jpg" alt="">
+
+                    <h1 class="mt-6 font-bold text-2xl">Recipe Title</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+
+            </div>
+
+        </section>
 
     </main>
 
